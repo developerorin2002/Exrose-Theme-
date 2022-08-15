@@ -1,0 +1,246 @@
+/* XL Device :1200px. */
+@media (min-width: 1200px) {}
+
+/* LG Device :992px. */
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* MD Device :768px. */
+@media (min-width: 768px) and (max-width: 991px) {
+  .menu-toggle {
+    color: #fff;
+    font-size: 24px;
+  }
+
+  .menubar .navbar-nav {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .menubar .nav-item {
+    padding: 5px 0;
+  }
+
+  .menubar .nav-item:last-child {
+    margin-right: 15px;
+  }
+
+  .home-content h5 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .home-content h1 {
+    font-size: 54px;
+  }
+
+  .home-content p {
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+
+  .section-title h3 {
+    font-size: 36px;
+  }
+
+  .feature-item span {
+    width: 45px;
+    height: 45px;
+    font-size: 18px;
+    line-height: 45px;
+    margin-right: 20px;
+  }
+
+  .feature-item-content h5 {
+    font-size: 19px;
+  }
+
+  .feature-content p {
+    font-size: 13px;
+    line-height: 24px;
+    margin-bottom: 0;
+  }
+
+  .pricing-package h5 {
+    font-size: 18px;
+  }
+
+  .pricing-package h3 {
+    font-size: 32px;
+  }
+
+  .footer-desc,
+  .footer-link {
+    margin-bottom: 30px;
+  }
+}
+
+/* Extra small Device. */
+@media (max-width: 767px) {
+  .menubar .navbar-brand {
+    padding: 10px 20px;
+    font-size: 25px;
+  }
+
+  /* .menubar .header-info {
+    display: none;
+  } */
+
+  .menu-toggle {
+    color: #fff;
+    font-size: 20px;
+  }
+
+  .menubar .navbar-nav {
+    text-align: center;
+    padding: 10px 0;
+  }
+
+  .menubar .nav-item {
+    padding: 5px 0;
+  }
+
+  .menubar .nav-item:last-child {
+    margin-right: 15px;
+  }
+
+  .home {
+    height: 550px;
+  }
+
+  .home-content h5 {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+
+  .home-content h1 {
+    font-size: 34px;
+  }
+
+  .home-content p {
+    font-size: 15px;
+    line-height: 30px;
+    margin-bottom: 30px;
+  }
+
+  .home-content p br,
+  .section-title p br {
+    display: none;
+  }
+
+  .button {
+    font-size: 14px;
+  }
+
+  .home-btn,
+  .pricing-btn {
+    width: 120px;
+    height: 40px;
+    line-height: 36px;
+    margin: 0 10px;
+  }
+
+  .hero-banner {
+    height: 230px;
+  }
+
+  .hero-title {
+    font-size: 34px;
+    padding-top: 40px;
+  }
+
+  .about {
+    padding: 80px 0 100px;
+  }
+
+  .section-title h3 {
+    font-size: 30px;
+  }
+
+  .about-img {
+    background: #fff;
+    transform: translateY(50px);
+  }
+
+  .service {
+    padding: 90px 0 100px;
+  }
+
+  .single-service {
+    margin-bottom: 30px;
+  }
+
+  .work .section-title p {
+    padding: 0 15px;
+  }
+
+  .feature-item span {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+    line-height: 50px;
+    margin-right: 20px;
+  }
+
+  .feature-img:before {
+    left: 46px;
+    top: 35px;
+    width: 95%;
+  }
+
+  .feature {
+    padding: 90px 0 120px;
+  }
+
+  .blog {
+    padding: 100px 0 110px;
+  }
+
+  .single-blog {
+    margin-bottom: 30px;
+  }
+
+  .blog-pagination span {
+    width: 30px;
+    height: 30px;
+    margin: 8px 6px;
+    font-size: 16px;
+    line-height: 30px;
+  }
+
+  .pricing-package {
+    margin-bottom: 30px;
+  }
+
+  .contact-info-item i {
+    font-size: 17px;
+    width: 35px;
+    height: 25px;
+    line-height: 25px;
+  }
+
+  .contact-info-item span {
+    font-size: 16px;
+  }
+
+  footer {
+    padding: 50px 0 80px;
+  }
+
+  .footer-desc,
+  .footer-link,
+  .footer-post {
+    margin-bottom: 30px;
+  }
+}
+
+/* SM Device :576px. */
+@media (min-width: 576px) and (max-width: 767px) {
+  .about .bg-white {
+    background-color: transparent !important;
+  }
+
+  .about-img {
+    background: #fff;
+    transform: none;
+  }
+}

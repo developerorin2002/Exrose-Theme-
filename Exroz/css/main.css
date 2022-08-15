@@ -1,0 +1,841 @@
+/* ============================================
+GOOGLE Fonts
+============================================*/
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+/* ..........................................
+1. Template Default CSS 
+ .......................................... */
+body {
+  font-size: 14px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 600;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+  color: inherit;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* ..........................................
+1. Header CSS 
+ .......................................... */
+/* header {
+  position: absolute;
+  width: 100%;
+} */
+
+.menubar.navbar {
+  padding: 0;
+  background: #021D38;
+}
+
+.menubar .navbar-brand {
+  background: #F7A30A;
+  padding: 15px 30px;
+  font-size: 32px;
+  color: #fff;
+  font-weight: 700;
+}
+
+.menubar .navbar-brand:hover {
+  color: #fff;
+}
+
+.menubar .header-info {
+  margin-left: 15px;
+  font-size: 17px;
+  color: #fff;
+}
+
+.menubar .nav-item {
+  margin: 0 15px;
+}
+
+.menubar .nav-item:last-child {
+  margin-right: 30px;
+}
+
+.menubar .nav-link {
+  font-weight: 500;
+  font-size: 15px;
+  padding: 0 !important;
+  color: #fff;
+}
+
+.menubar .dropdown-menu {
+  top: 150%;
+  left: unset;
+  right: 0;
+}
+
+/* ..........................................
+1. Home CSS 
+ .......................................... */
+.home {
+  height: 100vh;
+  background: url(../img/bg-intro.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.home:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(3, 6, 28, 0.7), rgba(3, 6, 28, 0.9));
+  z-index: -1;
+}
+
+.home-content h5 {
+  color: #f7a30a;
+  font-size: 26px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.home-content h1 {
+  font-size: 62px;
+  color: #fff;
+  font-weight: 700;
+  letter-spacing: 1px;
+  margin-bottom: 15px;
+}
+
+.home-content p {
+  font-size: 17px;
+  font-weight: 500;
+  color: #fff;
+  line-height: 35px;
+  margin-bottom: 35px;
+}
+
+.button {
+  display: inline-block;
+  border: none;
+  outline: none;
+  text-decoration: none;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  border-radius: 5px;
+  text-align: center;
+  text-transform: capitalize;
+}
+
+.home-btn,
+.pricing-btn,
+.contact-btn {
+  width: 160px;
+  height: 47px;
+  line-height: 44px;
+  border: 2px solid #F7A30A;
+  margin: 0 20px;
+  position: relative;
+  z-index: 1;
+  transition: 0.3s;
+}
+
+.home-btn:before,
+.pricing-btn:before,
+.contact-btn:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 100%;
+  background: #fff;
+  transition: 0.3s;
+  z-index: -1;
+}
+
+.home-btn:hover:before,
+.pricing-btn:hover:before,
+.contact-btn:hover:before {
+  width: 100%;
+}
+
+.home-btn:hover {
+  border: 2px solid #fff;
+}
+
+.home-btn-1,
+.pricing-btn,
+.contact-btn {
+  background: #F7A30A;
+}
+
+.hero-banner {
+  height: 320px;
+}
+
+.hero-title {
+  color: #fff;
+  font-size: 42px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+/* ..........................................
+1. About CSS 
+ .......................................... */
+.about {
+  padding: 110px 0 124px;
+  position: relative;
+}
+
+.about:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 245px;
+  background: #F7A30A;
+}
+
+.about .bg-white {
+  position: relative;
+}
+
+.section-title {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+.section-title h3 {
+  font-size: 40px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 25px;
+  color: #111111;
+}
+
+.section-title h3 span {
+  color: #F7A30A;
+}
+
+.section-title h6 {
+  color: #333333;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.section-title p {
+  font-size: 15px;
+  color: #343434;
+  line-height: 30px;
+}
+
+.about .section-title {
+  margin-bottom: 35px;
+  text-align: left;
+}
+
+.about .section-title h3 {
+  margin-bottom: 15px;
+}
+
+.about-content,
+.about-img {
+  padding: 0 20px 20px;
+}
+
+.about-content p,
+.about-content ul li {
+  font-size: 14px;
+  line-height: 26px;
+  color: #343434;
+  margin-bottom: 20px;
+}
+
+.about-content ul li {
+  margin-bottom: 5px;
+  padding-left: 35px;
+  position: relative;
+}
+
+.about-content ul li:before {
+  content: '\f00c';
+  font-family: 'Font Awesome 5 Pro';
+  font-weight: 900;
+  font-size: 16px;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.about-img img {
+  width: 100%;
+}
+
+/* ..........................................
+1. Service CSS 
+ .......................................... */
+.service {
+  padding: 110px 0 120px;
+  background: #F5F3FD;
+}
+
+.single-service {
+  padding: 30px;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0px 12px 30px -15px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.single-service.active {
+  background: #F7A30A;
+}
+
+.single-service i {
+  font-size: 54px;
+  color: #F7A30A;
+  margin-bottom: 25px;
+}
+
+.single-service h4 {
+  font-size: 20px;
+  color: #111111;
+  font-weight: 500;
+  margin-bottom: 15px;
+}
+
+.single-service p {
+  font-size: 14px;
+  color: #343434;
+  line-height: 26px;
+  margin-bottom: 0;
+}
+
+.single-service.active i,
+.single-service.active h4,
+.single-service.active p {
+  color: #fff;
+}
+
+/* ..........................................
+1. work CSS 
+ .......................................... */
+.work .section-title {
+  background: #000;
+  margin-bottom: 0;
+  padding: 100px 0 50px;
+}
+
+.work .section-title h3,
+.work .section-title p {
+  color: #fff;
+}
+
+.work .section-title p {
+  margin: 0;
+}
+
+.single-work {
+  position: relative;
+}
+
+.single-work img {
+  width: 100%;
+  height: 300px;
+}
+
+.single-work-hover {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 70%;
+  height: 100%;
+  margin: auto;
+  background: rgba(255, 169, 11, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  opacity: 0;
+  transition: 0.3s;
+}
+
+.single-work:hover .single-work-hover {
+  width: 100%;
+  opacity: 1;
+}
+
+.single-work-hover h4 {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.single-work-hover span {
+  color: #fff;
+  font-size: 14px;
+  text-transform: capitalize;
+}
+
+/* ..........................................
+1. Feature CSS 
+ .......................................... */
+.feature {
+  padding: 110px 0 130px;
+}
+
+.feature-content h4 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #111;
+  margin-bottom: 15px;
+}
+
+.feature-content p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #343434;
+}
+
+.feature-list-wrapper {
+  margin-top: 50px;
+}
+
+.feature-item {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+}
+
+.feature-item span {
+  display: inline-block;
+  width: 65px;
+  height: 65px;
+  background: #021d38;
+  border-radius: 6px;
+  color: #f7a30a;
+  font-size: 30px;
+  text-align: center;
+  line-height: 65px;
+  margin-right: 30px;
+}
+
+.feature-item-content h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #111111;
+  margin-bottom: 10px;
+}
+
+.feature-img {
+  margin-right: 55px;
+  margin-left: 25px;
+  position: relative;
+}
+
+.feature-img:before {
+  content: '';
+  position: absolute;
+  left: 101px;
+  top: 60px;
+  width: 90%;
+  height: 100%;
+  background: #F7A30A;
+  z-index: -1;
+}
+
+/* ..........................................
+1. Blog CSS
+ .......................................... */
+.blog {
+  background: #F5F3FD;
+  padding: 130px 0 120px;
+}
+
+.blog-slider {
+  position: relative;
+}
+
+.blog-slider .owl-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.blog-slider .owl-nav button {
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  background: #F7A30A !important;
+  margin: 0 15px;
+  outline: none;
+}
+
+.blog-slider .owl-nav button span {
+  font-size: 40px;
+  color: #fff;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.blog-slider .owl-dots {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.blog-slider .owl-dots .owl-dot {
+  width: 15px;
+  height: 15px;
+  /* line-height: 40px; */
+  border-radius: 50%;
+  margin: 0 5px;
+  border: 2px solid #F7A30A;
+  outline: none;
+}
+
+.blog-slider .owl-dots .owl-dot.active {
+  background: #F7A30A !important;
+}
+
+.single-blog {
+  background: #fff;
+  border-radius: 5px;
+  margin-bottom: 30px;
+}
+
+.single-blog img {
+  border-radius: 5px 5px 0 0;
+}
+
+.blog-content {
+  padding: 30px;
+}
+
+.blog-content h4 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #111111;
+  transition: 0.3s;
+  margin-bottom: 15px;
+}
+
+.blog-content h4:hover {
+  color: #f7a30a;
+}
+
+.blog-content span {
+  display: inline-block;
+  font-size: 15px;
+  color: #777777;
+  margin-bottom: 20px;
+}
+
+.blog-content p {
+  font-size: 14px;
+  line-height: 26px;
+  color: #343434;
+  margin-bottom: 0;
+}
+
+.blog-pagination {
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.blog-pagination span {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  border: 2px solid #ddd;
+  margin: 10px 12px;
+  font-size: 18px;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
+}
+
+.blog-pagination span:hover {
+  color: #f7a30a;
+}
+
+.blog-pagination span.active {
+  background: #f7a30a;
+  border: 2px solid #f7a30a;
+  color: #fff;
+}
+
+
+
+/* ..........................................
+1. Footer CSS 
+ .......................................... */
+footer {
+  padding: 120px 0 140px;
+  background: url(../img/footer.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+}
+
+footer:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(rgba(2, 29, 56, 0.98), rgba(2, 29, 56, 0.98));
+}
+
+.footer-logo {
+  font-size: 32px;
+  color: #F7A30A;
+  font-weight: 700;
+  margin-bottom: 20px;
+  line-height: 1;
+}
+
+.footer-text {
+  font-size: 15px;
+  line-height: 26px;
+  color: #BBBBBB;
+}
+
+.footer-head {
+  font-size: 20px;
+  font-weight: 500;
+  color: #fff;
+  margin-bottom: 30px;
+  line-height: 1;
+}
+
+.footer-list li {
+  margin-bottom: 10px;
+  transition: 0.3s;
+}
+
+.footer-list li:hover {
+  color: #F7A30A;
+}
+
+.foot-contact-info li {
+  display: flex;
+}
+
+.foot-contact-info li span {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  margin-right: 10px;
+}
+
+.foot-contact-info li.foot-address span {
+  margin-right: 25px;
+}
+
+.copyright {
+  background: #021d38;
+  text-align: center;
+  padding: 20px 0 8px;
+  border-top: 1px solid #253d55;
+}
+
+.copyright p {
+  color: #eee;
+  font-size: 14px;
+  line-height: 26px;
+}
+
+
+
+/* ..........................................
+1. Pricing CSS 
+ .......................................... */
+.pricing {
+  padding: 100px 0 130px;
+  background: #F5F3FD;
+}
+
+.pricing-package {
+  background: #fff;
+  padding: 0 0 50px;
+  text-align: center;
+  border-radius: 6px;
+  box-shadow: 0 12px 30px -15px rgba(0, 0, 0, 0.2);
+}
+
+.pricing-package.featured {
+  border: 2px solid #F7A30A;
+}
+
+.pricing-package h5 {
+  color: #111111;
+  font-size: 20px;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.pricing-package h3 {
+  font-size: 38px;
+  font-weight: 600;
+  color: #F7A30A;
+}
+
+.pricing-package .heading {
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+.pricing-package.featured .heading {
+  padding-bottom: 17px;
+  margin-bottom: 15px;
+  background: #F7A30A;
+  border-radius: 3px 3px 50px 50px;
+}
+
+.pricing-package.featured h5,
+.pricing-package.featured h3 {
+  color: #fff;
+}
+
+.package-details {
+  margin-bottom: 30px;
+}
+
+.package-details li {
+  font-size: 14px;
+  color: #343434;
+  margin-bottom: 15px;
+}
+
+.pricing-btn,
+.contact-btn {
+  width: 135px;
+  height: 48px;
+  line-height: 50px;
+  border: none;
+  margin: 0;
+}
+
+.pricing-btn:before,
+.contact-btn:before {
+  background: #021D38;
+  border-radius: 6px;
+}
+
+.pricing-btn:hover,
+.contact-btn:hover {
+  color: #fff;
+}
+
+/* ..........................................
+1. Contact CSS 
+ .......................................... */
+.map iframe {
+  width: 100%;
+  height: 450px;
+}
+
+.contact {
+  padding: 105px 0 120px;
+}
+
+
+.contact-info-item {
+  display: table;
+  margin-bottom: 25px;
+}
+
+.contact-info-item i {
+  display: table-cell;
+  font-size: 20px;
+  color: #F7A30A;
+  width: 50px;
+  height: 30px;
+  line-height: 30px;
+}
+
+.contact-info-item span {
+  font-size: 20px;
+}
+
+.contact-form-item {
+  margin-bottom: 30px;
+}
+
+.contact-form-item input,
+.contact-form-item textarea {
+  border: 2px solid #ddd;
+  padding: 15px 20px;
+  border-radius: 6px;
+  width: 100%;
+  color: #aaa;
+}
+
+.contact-form-item textarea {
+  height: 220px;
+}
+
+.contact-btn {
+  width: 120px;
+  height: 46px;
+  line-height: 46px;
+
+
+
+  /* ..........................................
+1. Feature CSS 
+ .......................................... */
+
+
+
+
+
+
+
+
+
+
+
+
+  /* ..........................................
+1. Feature CSS 
+ .......................................... */
